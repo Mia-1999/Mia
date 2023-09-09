@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #79c8ff;
+  background: #ffe804;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1515,6 +1515,15 @@ pre .javascript .function {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
+}
+.post-body a:not(.btn) {
+  color: #00a896;
+  border-bottom: none;
+}
+.post-body a:not(.btn):hover {
+  color: #028090;
+  font-weight: bold;
+  text-decoration: underline;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -2288,4 +2297,7 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.brand {
+  background: #00a896;
 }
